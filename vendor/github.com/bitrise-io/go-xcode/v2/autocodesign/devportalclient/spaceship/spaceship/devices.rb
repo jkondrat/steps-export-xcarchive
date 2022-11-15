@@ -57,6 +57,8 @@ def map_device_status_to_api_status(status)
   case status
   when 'c'
     'ENABLED'
+  when 'p'
+    'DISABLED'
   when 'r'
     'DISABLED'
   else
